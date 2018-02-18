@@ -21,7 +21,7 @@ function sendMail(pack, callback) {
         to: pack.to,
         from: 'service@sunshireshuttle.com',
         subject: pack.subject ? pack.subject : 'SUNSHIRE CRM',
-        text: pack.body
+        html: pack.body
     };
     sgMail.send(msg, false, function (err, result) {
         if (err) {
