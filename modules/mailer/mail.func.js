@@ -19,10 +19,10 @@ function sendMail(pack, callback) {
 
     const msg = {
         to: pack.to,
-        from: 'service@sunshireshuttle.com',
         subject: pack.subject ? pack.subject : 'SUNSHIRE CRM',
         html: pack.body
     };
+
     sgMail.send(msg, false, function (err, result) {
         if (err) {
             data.message = "SEND EMAIL FAIL";
