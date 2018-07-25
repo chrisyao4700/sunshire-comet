@@ -6,7 +6,7 @@ function sendEmail(pack, callback) {
         service: 'gmail',
         auth: {
             user: 'sunshire.sender@gmail.com', // generated ethereal user
-            pass: 'scuh82hasba2gaA'  // generated ethereal password
+            pass: '3629Lynoak'  // generated ethereal password
         }
     });
 

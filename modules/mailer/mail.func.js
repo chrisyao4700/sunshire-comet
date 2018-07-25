@@ -32,7 +32,6 @@ function sendMail(pack, callback) {
             data.message = "EMAIL SEND";
         }
         callback(data);
-        return;
     });
 
 }
